@@ -285,7 +285,7 @@ FROM
 ORDER BY 2
 LIMIT 10;
 
--- Procedure to view the sales of any sales team by just calling their names
+-- Stored Procedure to view the sales of any sales team by just calling their names
 DELIMITER $$
 create procedure sales_details (IN sales_team varchar(50))
 BEGIN
